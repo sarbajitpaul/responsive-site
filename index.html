@@ -8,25 +8,31 @@
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body>
-        <div class="navbar navbar-inverse navbar-static-top">
+        <!-- Header Navigation bar -->
+        <nav class="navbar navbar-inverse navbar-static-top">
             <div class="container">
-                <a href="#" class="navbar-brand">Tech Site</a>
 
-                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>                    
-                </button>
+                <!-- Logo -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                    
+                    </button>
+                    <a href="#" class="navbar-brand">Tech Site</a>
+                </div>
 
+
+
+                <!-- Menu Items -->
                 <div class="collapse navbar-collapse navHeaderCollapse">
 
                     <ul class="nav navbar-nav navbar-right">
 
-                        <li><a href="#" class="active">Home</a></li>
+                        <li class="active"><a href="#">Home</a></li>
                         <li><a href="#">Blog</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social<b class="caret"></b></a>
-
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Twitter</a></li>
                                 <li><a href="#">Facebook</a></li>
@@ -43,9 +49,28 @@
 
             </div>
 
+        </nav>
+
+
+        <!-- Jumbotron -->
+        <div class="container">
+            <div class="jumbotron text-center">
+                <h1>Sample Heading</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
+                <button class="btn btn-default">Watch Now!</button>
+                <button class="btn btn-info">Tweet it!</button>
+            </div>
         </div>
 
-        <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+        <!-- Footer navigation bar -->
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <p class="navbar-text">Site build by Pirateer</p>
+                <a href="http://youtube.com"><button type="button" class="btn btn-danger pull-right navbar-btn" href="http://www.youtube.com">Subscribe</button></a>
+            </div>
+        </nav>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
     </body>
 </html>
