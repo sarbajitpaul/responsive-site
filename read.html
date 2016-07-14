@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Bootstrap 3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    <body>
+        <!-- Header Navigation bar -->
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+
+                <!-- Logo -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                    
+                    </button>
+                    <a href="#" class="navbar-brand">Tech Site</a>
+                </div>
+
+
+
+                <!-- Menu Items -->
+                <div class="collapse navbar-collapse navHeaderCollapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Google+</a></li>
+                                <li><a href="#">Instagram</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#contact" data-toggle="modal">Contact Me</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+        <!-- Article panel -->
+        <div class="container content">
+            <div class="row">
+
+                <!-- Left side active article -->
+                <div class="col-lg-9">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="page-header">
+                                <h3>Sample article heading <small>Posted on July 14</small></h3>
+                            </div>
+
+                            <img src="images/nexus.jpg" class="featuredImg">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum blandit nisl sed lacinia. Etiam malesuada id dolor vel eleifend. Proin ullamcorper lorem lacus, porta lobortis neque dignissim sit amet. Curabitur leo sapien, rhoncus nec elit vitae, lacinia aliquam magna. Integer pellentesque augue dui, eget feugiat nisl accumsan vel. Nam porttitor dui sit amet eros consectetur, vel pharetra enim porta. Donec accumsan sapien elit, vitae consectetur risus dignissim quis. Suspendisse in efficitur tellus, ut luctus elit. In nec nisl blandit, rutrum nisl eget, porta ipsum. Fusce eget convallis dui. Integer posuere augue et ipsum interdum, vitae rhoncus mi interdum. Aenean id lacus et enim cursus mattis vitae quis arcu. Donec a nisl efficitur, aliquet felis sit amet, gravida arcu.</br></p>
+
+                            <p>Integer iaculis a justo vitae molestie. Sed pretium et mi non tempus. Duis porta mi sed erat pulvinar lacinia. Nullam vulputate faucibus lectus, eu consequat nunc pretium at. In convallis quis diam eget placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet velit purus. Nullam id nibh enim. Aenean vel libero lorem. Integer a volutpat libero, eu gravida augue. Aliquam laoreet turpis quis nunc pellentesque, vel gravida nunc eleifend. Ut aliquet, libero sed vehicula blandit, risus enim pulvinar odio, at cursus magna dui quis mauris. Nulla molestie id magna cursus varius. Sed ac odio sit amet nulla fermentum auctor. Vivamus felis augue, sollicitudin eget bibendum nec, efficitur vel arcu. Pellentesque ut tristique leo, imperdiet euismod lorem.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Right Side article list -->
+                <div class="col-lg-3">
+                    <div class="list-group">
+                        <a href="" class="list-group-item active">
+                            <h4 class="list-group-item-heading">Sample Article</h4>
+                            <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate.</p>
+                        </a>
+
+                        <a href="" class="list-group-item">
+                            <h4 class="list-group-item-heading">Sample Article</h4>
+                            <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate.</p>
+                        </a>
+
+                        <a href="" class="list-group-item">
+                            <h4 class="list-group-item-heading">Sample Article</h4>
+                            <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate.</p>
+                        </a>
+
+                        <a href="" class="list-group-item">
+                            <h4 class="list-group-item-heading">Sample Article</h4>
+                            <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Footer navigation bar -->
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <p class="navbar-text pull-left">Site build by Pirateer</p>
+                <a href="http://youtube.com"><button type="button" class="btn btn-danger pull-right navbar-btn" href="http://www.youtube.com">Subscribe</button></a>
+            </div>
+        </nav>
+
+        <!-- Modal -->
+        <div class="modal fade" id="contact" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Contact Tech Site</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-default">Contact</button>
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+    </body>
+</html>

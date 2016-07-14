@@ -1,8 +1,21 @@
 .content{
-    padding-bottom: 30px;
+    padding-bottom: 70px;
 }
 
-.navbar-bottom{
+/*.navbar-fixed-bottom{
     border-radius: 0px;
     margin-bottom: 0px;
+}*/
+
+.page-header{
+    margin-top: 0px;
+}
+
+.panel-body{
+    padding-top: 0px;
+}
+
+.featuredImg{
+    width: 100%;
+    margin-bottom: 15px;
 }
